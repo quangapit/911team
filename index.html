@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>911 TEAM</title> 
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      background:#000;
+      color:#00ff00;
+      font-family: "Courier New", monospace;
+      height:100vh;
+      overflow:hidden;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      flex-direction:column;
+    }
+
+    .container{
+      animation:flicker 1.5s infinite;
+    }
+
+    h1{
+      color:red;
+      font-size:90px;
+      text-shadow:
+        0 0 10px red,
+        0 0 20px red,
+        0 0 40px red;
+      margin-bottom:40px;
+    }
+
+    p{
+      font-size:32px;
+      margin:20px 0;
+      text-shadow:0 0 8px #00ff00;
+    }
+
+    .small{
+      position:absolute;
+      bottom:20px;
+      font-size:18px;
+      color:#888;
+    }
+
+    @keyframes flicker{
+      0%{opacity:1;}
+      50%{opacity:0.92;}
+      100%{opacity:1;}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>HACKED !</h1>
+
+    <p>Your system has been compromised</p>
+    <p>Website attack by hacker</p>
+    <p>Security level: LOW</p>
+  </div>
+
+  <div class="small">
+    hello gay
+  </div>
+
+</body>
+</html>
